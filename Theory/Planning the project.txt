@@ -1,0 +1,70 @@
+OMNIFOOD
+
+FIRST REAL-WORLD PROJECT
+
+-Omnifood is startup that uses AI to create and deliver custom healthy meal plans
+-They provided us with all the content for the website (content.md) 
+
+01 - STEP 
+
+1-) Define WHO the website is for?
+    - For a client
+
+2-) Define WHAT the website is for?
+    - Business goal: Selling monthly food subscription
+    - User goal: Eating well effortlessly, without spending a lot of time and money
+
+3-) Define target audience?
+    - Busy people who like technology, are interested in a healthy diet, and have a well-paying job
+
+02 - STEP
+
+1-) Plan and gather website content
+
+2-) Plan out the sitemap
+    - We will just build a one-page marketing website (oftentimes called landing page), so on sitemap
+3-) Define website personality
+    - Based on the tech-centered target audience, as well as the actual product being sold, we will use the startup/upbeat
+    personality. We might add some elements of the calm/peaceful personality, since the product is all about consumer well-
+    being as well
+
+------------------------------------------------------------------------------------------------------
+
+03 - STEP
+
+Just get some inspiration to build the website
+
+------------------------------------------------------------------------------------------------------
+
+RESPONSIVE DESIGN
+    - Design technique to make a webpage adjust its layout and visual style to any possiblem screen size
+    - In practice, this means that responsive design makes websites usable on all devices
+    - It's a set of practices, not a separate technology. It's all just CSS!
+
+# 01 - FLUID LAYOUTS
+    - To allow webpage to adapt to the current viewport width (or even height)
+    - Use % (or vh / vw) unit instead of px for elements that should adapat to viewport (usually layout)
+    - Use max-width instead of width
+
+# 02 - RESPONSIVE UNITS
+    - Use rem unit instead of px for most lengths
+    - To make it easy to scale the entire layout down (or up) automatically
+    - Helpful trick: Setting 1rem to 10px for ea sy calculations 
+
+# 03 - FLEXIBLE IMAGES 
+    - By default, images don't scale automatically as we change the viewport, so we need to fix that
+    - Always use % for image dimensions, together with the max-width property
+
+# 04 - MEDIA QUERIES
+    - Bring responsive sites to life!
+    - To change CSS styles on certain viewport widths (called breakpoints)
+
+---------------------------------------
+HOW MEDIA QUERIES WORK (WITH MAX-WIDTH)
+
+@media (max-width: 600px) =  is width <= 600px?
+
+300px - 500px = smartphones
+600px - 900px = vertical tablets
+900px - 1100px= horizontal tablets
+>1200px = desktop computers
